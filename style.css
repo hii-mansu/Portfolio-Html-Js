@@ -533,7 +533,7 @@ box-shadow: var(--outersd);*/
   display: flex;
   flex-direction: row;
   gap: 50px;
-  padding: 50px 100px;
+  padding: 50px 65px;
   align-items: center;
   border-radius: 32px;
   /*background-color: rgba(240, 238, 237, 0.194);
@@ -1088,6 +1088,18 @@ button{
   .topfoot{
     transform: scale(1);
     grid-template-columns: repeat(1, 1fr);
+  }
+  .tstmnlcstmr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .tstmnlimg{
+    position: relative;
+    margin: 0 auto;
+    display: none;
   }
 }
 @media(width<375px){
